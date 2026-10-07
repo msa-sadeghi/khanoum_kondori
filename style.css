@@ -33,3 +33,17 @@ div.card {
 main {
   margin-top: 20px;
 }
+
+div#specialProducts {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  div#specialProducts {
+    flex-direction: column;
+    align-items: center;
+  }
+}
